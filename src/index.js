@@ -4,15 +4,24 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ErrorPage from './Error';
 import './index.css';
-import App from './App';
+import App from './routes/App';
+import Root from './routes/Root';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        index: true,
+        element: <App />,
+      }
+    ],
   },
-], {basename: "/hngi_fe_metabnb/"});
+], {basename: "/hngi_fe_metabnb"});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
