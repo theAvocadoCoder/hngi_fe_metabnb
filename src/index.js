@@ -5,9 +5,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from './Error';
-import './index.css';
 import App from './routes/App';
 import Root from './routes/Root';
+import  'normalize.css';
+import './index.css';
 
 const router = createBrowserRouter([
   {
