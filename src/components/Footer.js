@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "../styles/Footer.css";
-import logoAllWhite from "../images-svg/logo__all-white.svg";
-import fb from "../images-svg/icons/fb.svg";
-import ig from "../images-svg/icons/ig.svg";
-import twitter from "../images-svg/icons/twitter.svg";
+import logoAllWhite from "../images/svg/logo__all-white.svg";
+import fb from "../images/svg/icons/fb.svg";
+import ig from "../images/svg/icons/ig.svg";
+import twitter from "../images/svg/icons/twitter.svg";
 
 export default function Footer() {
   return (
