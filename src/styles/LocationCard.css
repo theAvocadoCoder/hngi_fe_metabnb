@@ -2,12 +2,13 @@
   position: relative;
   border: 1px solid #D7D7D7;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1rem 0;
   gap: .8rem;
-  width: 17.5rem;
-  margin: 5rem;
+  width: 18.25rem;
+  height: 23.25rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: .75rem;
   color: #434343;
 }
@@ -20,12 +21,14 @@
 
 .div__location-card>img {
   border-radius: 1rem;
+  width: 16.25rem;
 }
 
 .location-card-div__info1,
 .location-card-div__info2 {
   display: flex;
   justify-content: space-between;
+  width: calc(100% - 2rem);
 }
 
 .div__location-card p {
@@ -39,4 +42,5 @@
 .location-card-div__stars {
   display: flex;
   gap: .7rem;
+  width: calc(100% - 2rem);
 }
