@@ -1,0 +1,42 @@
+.div__location-card {
+  position: relative;
+  border: 1px solid #D7D7D7;
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: .8rem;
+  width: 17.5rem;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: .75rem;
+  color: #434343;
+}
+
+.location-card-div__heart-icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+}
+
+.div__location-card>img {
+  border-radius: 1rem;
+}
+
+.location-card-div__info1,
+.location-card-div__info2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div__location-card p {
+  margin: 0;
+}
+
+.location-card-div__info1 p:last-of-type {
+  font-weight: 700;
+}
+
+.location-card-div__stars {
+  display: flex;
+  gap: .7rem;
+}
