@@ -4,6 +4,9 @@ import druids4 from "../images/locations/druids 4.png";
 import s2 from "../images/locations/s2.png";
 import s9 from "../images/locations/s9.png";
 import susan1 from "../images/locations/susan 1.png";
+import s3 from "../images/locations/rotated/s3.png";
+import s4 from "../images/locations/rotated/s4.png";
+import susan4 from "../images/locations/rotated/susan 4.png";
 import mbToken from "../images/svg/mbtoken.svg";
 import metaMask from "../images/svg/metamask.svg";
 import openSea from "../images/svg/opensea.svg";
@@ -26,16 +29,16 @@ function App() {
           </div>
           <div className='hero-div__images-container'>
             <div className='hero-div__image'>
-              <img src={druids4} alt="" />
+              <img src={druids4} alt="Metabnb location" />
             </div>
             <div className='hero-div__image'>
-              <img src={s2} alt="" />
+              <img src={s2} alt="Metabnb location" />
               </div>
             <div className='hero-div__image'>
-              <img src={s9} alt="" />
+              <img src={s9} alt="Metabnb location" />
             </div>
             <div className='hero-div__image'>
-              <img src={susan1} alt="" />
+              <img src={susan1} alt="Metabnb location" />
             </div>
           </div>
         </div>
@@ -60,6 +63,18 @@ function App() {
               <LocationCard bnbLocation={layer2Location} key={index} />
             ))
           }
+        </div>
+      </section>
+      <section className='section__metabnb-nfts'>
+        <div className='metabnb-nfts__copy-container'>
+          <h1>Metabnb NFTs</h1>
+          <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
+        <button>Learn More</button>
+        </div>
+        <div className='metabnb-nfts__images-container'>
+          <img className='s3' src={s3} alt="Metabnb location" />
+          <img className='s4' src={s4} alt="Metabnb location" />
+          <img className='susan4' src={susan4} alt="Metabnb location" />
         </div>
       </section>
     </div>

@@ -114,3 +114,71 @@
   display: flex;
   gap: 1.5rem;
 }
+
+.section__metabnb-nfts {
+  background-color: #A02279;
+  display: flex;
+  color: white;
+  padding: 6.25rem;
+  justify-content: space-between;
+}
+
+.metabnb-nfts__copy-container {
+  display: flex;
+  flex-direction: column;
+  width: min(50vw, 25rem);
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.metabnb-nfts__copy-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  margin: 0;
+}
+
+.metabnb-nfts__copy-container p {
+  font-size: 1.125rem;
+  line-height: 2.2rem;
+}
+
+.metabnb-nfts__copy-container button {
+  width: fit-content;
+  padding: 1rem;
+  color: #A02279;
+  border: none;
+  border-radius: .5rem;
+  padding: .875rem 2.1rem;
+}
+
+.metabnb-nfts__images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  position: relative;
+}
+
+.metabnb-nfts__images-container img {
+  border-radius: .625rem;
+  position: relative;
+  width: 23.64rem;
+}
+
+.s3 {
+  transform: rotate(17.76deg);
+  translate: -15% 27.5%;
+}
+
+.s4 {
+  transform: rotate(-26.02deg);
+  translate: -77.5%;
+}
+
+.susan4 {
+  transform: rotate(-8.76deg);
+  translate: -5% -78%;
+
+}
