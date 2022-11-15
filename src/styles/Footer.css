@@ -6,8 +6,9 @@
 #footer__div {
   background-color: #1D1D1E;
   display: flex;
-  gap: 10rem;
-  padding: 4rem;
+  justify-content: space-around;
+  padding: 4rem 0;
+  max-width: 100vw;
 }
 
 #footer-div__1 {
@@ -29,8 +30,8 @@
 
 #footer-div__2 {
   display: flex;
-  justify-content: space-around;
-  gap: 10rem;
+  justify-content: space-between;
+  flex-grow: .5;
 }
 
 #footer-div__2>div {
@@ -48,5 +49,6 @@ strong {
 a {
   font-size: .9rem;
   font-weight: 400;
+  width: max-content;
 }
 
