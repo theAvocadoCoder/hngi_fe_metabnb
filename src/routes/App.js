@@ -50,13 +50,13 @@ function App() {
         <h1>Inspiration for your next adventure</h1>
         <div className='featured-places__div'>
           {
-            layer1.map((layer1Location, index)=>(
-              <LocationCard bnbLocation={layer1Location} key={index} />
+            layer2.map((layerLocation, index)=>(
+              <LocationCard bnbLocation={layerLocation} key={index} />
             ))
           }
           {
-            layer2.map((layer2Location, index)=>(
-              <LocationCard bnbLocation={layer2Location} key={index} />
+            layer1.map((layerLocation, index)=>(
+              <LocationCard bnbLocation={layerLocation} key={index} />
             ))
           }
         </div>

@@ -24,7 +24,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer1/s11.png",
+      imgUrl: "layer1/S16.png",
       altText: "image of Metabnb location",
     },
     {
@@ -33,7 +33,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer1/S16.png",
+      imgUrl: "layer1/s11.png",
       altText: "image of Metabnb location",
     },
   ],
@@ -44,7 +44,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer2/aise1.png",
+      imgUrl: "layer2/druids6.png",
       altText: "image of Metabnb location",
     },
     {
@@ -62,7 +62,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer2/druids6.png",
+      imgUrl: "layer2/s1.png",
       altText: "image of Metabnb location",
     },
     {
@@ -71,20 +71,11 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer2/s1.png",
+      imgUrl: "layer2/aise1.png",
       altText: "image of Metabnb location",
     },
   ],
   layer3: [
-    {
-      name: "Desert king",
-      price: "1MBT per night",
-      distance: "2345km",
-      duration: "2weeks",
-      stars: 5,
-      imgUrl: "layer3/druids4.png",
-      altText: "image of Metabnb location",
-    },
     {
       name: "Desert king",
       price: "1MBT per night",
@@ -100,7 +91,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer3/s8.png",
+      imgUrl: "layer3/druids4.png",
       altText: "image of Metabnb location",
     },
     {
@@ -112,6 +103,15 @@ const locations = {
       imgUrl: "layer3/s12.png",
       altText: "image of Metabnb location",
     },
+    {
+      name: "Desert king",
+      price: "1MBT per night",
+      distance: "2345km",
+      duration: "2weeks",
+      stars: 5,
+      imgUrl: "layer3/s8.png",
+      altText: "image of Metabnb location",
+    },
   ],
   layer4: [
     {
@@ -120,7 +120,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer4/s9.png",
+      imgUrl: "layer4/susan3.png",
       altText: "image of Metabnb location",
     },
     {
@@ -129,7 +129,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer4/susan3.png",
+      imgUrl: "layer4/susan8.png",
       altText: "image of Metabnb location",
     },
     {
@@ -147,7 +147,7 @@ const locations = {
       distance: "2345km",
       duration: "2weeks",
       stars: 5,
-      imgUrl: "layer4/susan8.png",
+      imgUrl: "layer4/s9.png",
       altText: "image of Metabnb location",
     },
   ],
