@@ -34,6 +34,7 @@
     display: none;
   }
   .links__div.active {
+    z-index: 999;
     box-sizing: border-box;
     position: absolute;
     top: 6rem;
