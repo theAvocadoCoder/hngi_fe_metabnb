@@ -3,10 +3,14 @@ import logo from "../images/svg/logo.svg";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
-export default function Header() {
+export default function Header({modalSetter}) {
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
     setIsActive(current => !current);
+  }
+  const handleWalletClick = () => {
+    handleClick();
+    modalSetter(current => !current);
   }
   return (
     <div className="header__div">
@@ -23,7 +27,7 @@ export default function Header() {
         <Link to="/place-to-stay">Place to Stay</Link>
         <Link to="/nfts">NFTs</Link>
         <Link to="/community">Community</Link>
-        <button onClick={handleClick} className="connect-wallet">Connect wallet</button>
+        <button onClick={handleWalletClick} className="connect-wallet">Connect wallet</button>
       </div>
     </div>
   )

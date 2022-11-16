@@ -1,3 +1,67 @@
-div:first-of-type {
-  max-width: 100vw;
+.connect-modal__container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(64, 64, 64, 0.3);
+}
+.connect-modal__container.active {
+  display: flex;
+}
+
+.modal__div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: clamp(20rem, 80vw, 37.5rem);
+}
+
+.modal__div * {
+  color: #333333;
+}
+
+.modal-div__head {
+  padding: 1.5rem 2rem;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.modal-div__head strong {
+  font-size: 1.5rem;
+}
+
+.modal-div__head img {
+  margin-left: auto;
+}
+
+.modal-div__body {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.modal-div__body a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: .75rem 1.25rem;
+  border: 1px solid #CFD8DC;
+  width: 100%;
+  border-radius: .75rem;
+}
+
+.modal-div__body a:hover {
+  background-color: #F8F9FA;
+}
+
+.modal-div__body a p {
+  margin-right: auto;
 }
