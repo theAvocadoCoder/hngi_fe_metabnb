@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import ErrorPage from './Error';
 import App from './routes/App';
+import PlaceToStay from './routes/PlaceToStay';
 import Root from './routes/Root';
 import  'normalize.css';
 import './index.css';
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <App />,
+      },
+      {
+        path: "/place-to-stay",
+        element: <PlaceToStay />,
       }
     ],
   },
