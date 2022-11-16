@@ -1,0 +1,50 @@
+.places-to-stay__div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 100%;
+  margin: 3rem auto 5rem auto;
+}
+
+.filter-places__div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.type-filter__div {
+  display: flex;
+  flex-grow: .5;
+  justify-content: space-evenly;
+}
+
+.location-filter__div {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.location-filter__div input {
+  max-width: 7rem;
+  height: 100%;
+  padding: .5rem;
+  padding-right: 2rem;
+  border-radius: .5rem;
+  border: 1px solid #B4B4B4;
+}
+
+.location-filter__div img {
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
+
+@media (max-width: 1024px) {
+  .places-to-stay__div {
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+  }
+}
