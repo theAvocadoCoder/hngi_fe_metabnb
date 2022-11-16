@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, 'Red Rose', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Red Rose', -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     cursive;
   -webkit-font-smoothing: antialiased;

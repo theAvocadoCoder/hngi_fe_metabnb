@@ -4,9 +4,7 @@ import druids4 from "../images/locations/druids 4.png";
 import s2 from "../images/locations/s2.png";
 import s9 from "../images/locations/s9.png";
 import susan1 from "../images/locations/susan 1.png";
-import s3 from "../images/locations/rotated/s3.png";
-import s4 from "../images/locations/rotated/s4.png";
-import susan4 from "../images/locations/rotated/susan 4.png";
+import rotated from "../images/locations/rotated.png";
 import mbToken from "../images/svg/mbtoken.svg";
 import metaMask from "../images/svg/metamask.svg";
 import openSea from "../images/svg/opensea.svg";
@@ -56,8 +54,6 @@ function App() {
               <LocationCard bnbLocation={layer1Location} key={index} />
             ))
           }
-        </div>
-        <div className='featured-places__div'>
           {
             layer2.map((layer2Location, index)=>(
               <LocationCard bnbLocation={layer2Location} key={index} />
@@ -72,9 +68,7 @@ function App() {
         <button>Learn More</button>
         </div>
         <div className='metabnb-nfts__images-container'>
-          <img className='s3' src={s3} alt="Metabnb location" />
-          <img className='s4' src={s4} alt="Metabnb location" />
-          <img className='susan4' src={susan4} alt="Metabnb location" />
+          <img className='rotated' src={rotated} alt="3 rotated Metabnb locations" />
         </div>
       </section>
     </div>

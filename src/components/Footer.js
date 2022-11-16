@@ -7,8 +7,8 @@ import twitter from "../images/svg/icons/twitter.svg";
 
 export default function Footer() {
   return (
-    <div id="footer__div">
-      <div id="footer-div__1">
+    <div className="footer__div">
+      <div className="footer-div__1">
         <img src={logoAllWhite} alt="all white MetaBnB log" />
         <div>
           <div>
@@ -19,7 +19,7 @@ export default function Footer() {
           <p>&copy; 2022 Metabnb</p>
         </div>
       </div>
-      <div id="footer-div__2">
+      <div className="footer-div__2">
         <div>
           <strong>Community</strong>
           <Link to="">NFT</Link>
